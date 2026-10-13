@@ -1,11 +1,6 @@
 def first_unique_char(s):
     """
-    This function takes a string s as input and returns the index of the first non-repeating character in it.
-    If there is no such character, it returns -1.
-
-    :param s: str - The input string
-    :return: int - The index of the first unique character or -1 if none exists
-    """
+    This function takes a string as input and returns the first non-repeating character in the string, or None if there is no such character."""
     char_count = {}
 
     # Count the occurrences of each character in the string
